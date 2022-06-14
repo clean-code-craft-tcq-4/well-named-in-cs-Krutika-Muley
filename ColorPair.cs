@@ -1,4 +1,5 @@
        using System.Drawing; 
+
         /// <summary>
         /// data type defined to hold the two colors of clor pair
         /// </summary>
