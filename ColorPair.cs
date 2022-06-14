@@ -14,4 +14,4 @@
                 return string.Format("MajorColor:{0}, MinorColor:{1}", majorColor.Name, minorColor.Name);
             }
          }
-        }
+       }
