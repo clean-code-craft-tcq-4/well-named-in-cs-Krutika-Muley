@@ -2,9 +2,8 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-    class Colors
+    public static class Colors
     {
-
         static Colors()
         {
             colorMapMajor = new Color[] { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
@@ -13,13 +12,11 @@ namespace TelCo.ColorCoder
         /// <summary>
         /// Array of Major colors
         /// </summary>
-        private static Color[] colorMapMajor;
+        public static Color[] colorMapMajor;
         /// <summary>
         /// Array of minor colors
         /// </summary>
-        private static Color[] colorMapMinor;
-        /// <summary>
-        /// data type defined to hold the two colors of clor pair
-        /// </summary>
+        public static Color[] colorMapMinor;
+
     }
 }
